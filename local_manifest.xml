@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="arrow"
+		fetch="https://github.com/ArrowOS-Devices" />
+
+ 	<project path="device/xiaomi/phoenix" name="android_device_xiaomi_phoenix" remote="arrow" revision="arrow-11.0"/>
+	<project path="kernel/xiaomi/phoenix" name="android_kernel_xiaomi_phoenix" remote="arrow" revision="arrow-11.0" />
+	<project path="vendor/xiaomi/phoenix" name="android_vendor_xiaomi_phoenix" remote="arrow" revision="arrow-11.0"/>
+
+</manifest>
